@@ -1,0 +1,96 @@
+body {
+  background-color: #fbfefb;
+  font-family: 'Open Sans', sans-serif;
+  color: #b8bdb5;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+h1 {
+  color: #AF9376;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+h2, h3 {
+  color: #5f7470;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+a {
+  color: #889696;
+  text-decoration: none;
+  font-size = 22px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.btn-minimal {
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: #889696;
+  transition-duration: 0.4s;
+
+}
+
+.btn-minimal:hover {
+  background-color: #889696;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
